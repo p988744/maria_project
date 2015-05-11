@@ -83,5 +83,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
+STATICFILES_DIRS = (
+    ('/ver/www/python.labforstudio.net/mysite')
+)
+STATIC_ROOT = '/ver/www/python.labforstudio.net/mysite'
 
 STATIC_URL = '/static/'
